@@ -3,9 +3,9 @@ A template for implementing socket.io with Phaser 3
 
 In your VSCode terminal:
 
-"npm install"
+npm install
 
-"npm start"
+npm start
 
 
 In VSCode:
