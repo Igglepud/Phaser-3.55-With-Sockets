@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+    
+    <head>
+        <meta charset="utf-8"/>
+        <title>Phaser Game With Sockets</title>
+        <style>
+            canvas {
+                width: 60%;
+                height: 60%;
+                padding: 20px;
+                background: black;
+                
+            }
+        </style>
+
+    </head>
+    
+    <body>
+      <script src="lib/phaser.js"></script>
+      <script src="lib/socket.io.js"></script>
+
+      
+      <script type="module"src="src/game.js"></script>
+      
+      <script type="module"src="src/main.js"></script>
+     <script> 
+     
+     this.socket = io(":5506");
+      </script>
+        
+        
+    </body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>
